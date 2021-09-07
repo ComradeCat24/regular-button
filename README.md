@@ -15,12 +15,12 @@ npm install --save regular-button
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'regular-button'
+import { Button } from 'regular-button'
 import 'regular-button/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button />
   }
 }
 ```
